@@ -71,6 +71,14 @@ index f065b094..fe21b41c 100755
  fi
  conda env update --file "$yml_file"
 ```
+### copy above text into odin.patch and run git apply from source root
+```
+ git apply odin.patch 
+```
+## make sure you delete existing conda env (if there is any) and results directory
+ ```
+  rm -rf  ~/Desktop/CL/results/ ~/Desktop/CL_conda 
+ ```
 
 ## Build conda env 
 From source root run 
