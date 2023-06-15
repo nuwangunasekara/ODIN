@@ -60,4 +60,5 @@ You could use use ```exp_scripts/run_exp.sh``` script to run multiple experiment
 ## Notes
 
 Please let us know if you come across any issue with the build or running experiments
-Special thanks to @pouya1996 for improving this installation instructions.
+
+Special thanks to [pouya1996](https://github.com/pouya1996) for improving this installation instructions.
