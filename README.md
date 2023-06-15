@@ -38,7 +38,7 @@ a6b017ef (HEAD, tag: ODIN, origin/master, origin/HEAD) HEAD@{0}: clone: from git
 9. `pip install gdown`
 10. `pip install scikit-image==0.19.0`
     * `0.19.0: `: version should be stated to avoid upgrading Numpy
-11. Run an experiment: `bash exp-script/run-exp.sh exp-scripts/train-pool.py ~/ODIN/results ~/ODIN/CL_conda`
+11. Run an experiment: `bash exp_scripts/run_exp.sh exp_scripts/train_pool.py ~/ODIN/results ~/ODIN/CL_conda`
     * `~/ODIN/results` is the path where the results will be saved
     * `~/ODIN/CL_conda` is the created environment directory
 
